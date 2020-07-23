@@ -1,0 +1,18 @@
+Denominacion: 1000|Se agrego: 5 | Total: 5
+Denominacion: 500|Se agrego: 54 | Total: 54
+Denominacion: 200|Se agrego: 23 | Total: 23
+Denominacion: 2|Se agrego: 300 | Total: 300
+Denominacion: 20|Se agrego: 56 | Total: 56
+Denominacion: 200 |Se retiró: 10 | Total: 13
+Denominacion: 1000|Se agrego: 10 | Total: 15
+Denominacion: 1000 |Se retiró: 3 | Total: 12
+Denominacion: 500|Se agrego: 5 | Total: 5
+Denominacion: 200|Se agrego: 2 | Total: 2
+Denominacion: 50|Se agrego: 35 | Total: 35
+Denominacion: 100|Se agrego: 100 | Total: 100
+Denominacion: 1000|Se agrego: 5 | Total: 5
+Denominacion: 2|Se agrego: 55 | Total: 55
+Denominacion: 5|Se agrego: 126 | Total: 126
+Denominacion: 2 | Se retiro todo | Total: 0
+Denominacion: 5 | Se retiro todo | Total: 0
+Denominacion: 5 | Se retiro todo | Total: 0

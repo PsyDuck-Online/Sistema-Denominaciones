@@ -1,0 +1,2 @@
+valor=50
+cantAlmacenada=0

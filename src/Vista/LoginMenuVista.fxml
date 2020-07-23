@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.LoginMenuController">
+   <children>
+      <AnchorPane prefHeight="404.0" prefWidth="300.0" style="-fx-background-color: #F9CF6A;">
+         <children>
+            <Button fx:id="btnAdministrador" layoutX="87.0" layoutY="301.0" mnemonicParsing="false" onAction="#loginAdministrador" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #FFFBC3;" text="Ingresar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="74.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/adminImg.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="112.0" layoutY="39.0" text="Administrador" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="300.0" prefHeight="404.0" prefWidth="300.0" style="-fx-background-color: #78C2DC;">
+         <children>
+            <Button fx:id="btnIngresarUsuario" layoutX="93.0" layoutY="281.0" mnemonicParsing="false" onAction="#loginUsuario" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #C3EFFF;" text="Ingresar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="76.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/userImg.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="136.0" layoutY="38.0" text="Usuario" />
+            <Button fx:id="btnCrear" layoutX="93.0" layoutY="328.0" mnemonicParsing="false" onAction="#crearUsuario" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #C3EFFF;" text="Crear">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,2 @@
+valor=500
+cantAlmacenada=0
